@@ -1,0 +1,27 @@
+{
+  "name": "object-keys-mapping",
+  "version": "0.1.0",
+  "description": "mapping object keys",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib --out-dir build",
+    "prepublish": "npm run build",
+    "test": "mocha"
+  },
+  "repository": "onebook/object-keys-mapping",
+  "keywords": [
+    "mapping",
+    "object",
+    "keys"
+  ],
+  "files": [
+    "build/",
+    "lib/"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "5",
+    "mocha": "2"
+  }
+}
