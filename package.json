@@ -1,12 +1,14 @@
 {
   "name": "object-keys-mapping",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "mapping object keys",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib --out-dir build",
     "prepublish": "npm run build",
-    "test": "mocha"
+    "pretest": "npm run build",
+    "test": "mocha",
+    "test-cov": "istanbul cover node_modules/.bin/_mocha -- -R dot -t 2000 test/*.js"
   },
   "repository": "onebook/object-keys-mapping",
   "keywords": [
@@ -22,6 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "babel": "5",
+    "istanbul": "0",
     "mocha": "2"
   }
 }
