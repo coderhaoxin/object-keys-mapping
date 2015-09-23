@@ -123,4 +123,26 @@ describe('object-keys-mapping', () => {
       equal(operator.map({}), {})
     })
   })
+
+  describe('edge cases', () => {
+    const operator = new Operator({
+      camelcase: true
+    })
+
+    it('property is null', () => {
+      equal(operator.map({
+        is_null: null
+      }), {
+        isNull: null
+      })
+    })
+
+    it('property is undefined', () => {
+      equal(operator.map({
+        is_undefined: undefined
+      }), {
+        isUndefined: undefined
+      })
+    })
+  })
 })
