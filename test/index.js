@@ -4,7 +4,7 @@ const toCamelcase = require('../').toCamelcase
 const Operator = require('../').Operator
 const equal = require('assert').deepEqual
 
-describe('object-keys-mapping', () => {
+describe('index', () => {
   describe('camelcase', () => {
     const origin = {
       a_b: 'a',

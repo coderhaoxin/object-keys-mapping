@@ -5,6 +5,12 @@
 
 ### object-keys-mapping
 
+### APIs
+
+* Operator
+  - .map()
+* trim()
+
 ### Usage
 
 ```
