@@ -10,6 +10,7 @@
 * Operator
   - .map()
 * trim()
+* pick()
 
 ### Usage
 
