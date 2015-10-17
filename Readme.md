@@ -11,6 +11,8 @@
   - .map()
 * trim()
 * pick()
+* pickDiff()
+* genReverser()
 
 ### Usage
 
@@ -49,6 +51,17 @@ const obj = operator.map({
     name: 'dog'
   }]
 }
+```
+
+* .pick()
+
+```js
+const origin = {
+  name: 'a',
+  desc: 'b'
+}
+
+pick(origin, ['name', 'username'], 'desc')
 ```
 
 ### License

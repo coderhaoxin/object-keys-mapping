@@ -34,5 +34,21 @@ describe('pick', () => {
 
       equal(pick(origin, ['a', 'A'], ['c', 'C']), expect)
     })
+
+    it('pick keys and pick keys to ...', () => {
+      const origin = {
+        a: 'a',
+        b: 'b',
+        c: undefined
+      }
+
+      const expect = {
+        a: 'a',
+        bb: 'b',
+        c: undefined
+      }
+
+      equal(pick(origin, 'a', ['b', 'bb'], 'c'), expect)
+    })
   })
 })
