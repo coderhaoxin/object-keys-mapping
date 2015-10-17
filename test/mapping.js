@@ -1,7 +1,7 @@
 'use strict'
 
-const toCamelcase = require('../').toCamelcase
-const Operator = require('../').Operator
+const toCamelcase = require('../lib').toCamelcase
+const Operator = require('../lib').Operator
 const equal = require('assert').deepEqual
 
 describe('index', () => {

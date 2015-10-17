@@ -1,6 +1,6 @@
 'use strict'
 
-const genReverser = require('../').genReverser
+const genReverser = require('../lib').genReverser
 const equal = require('assert').deepEqual
 
 describe('genReverser', () => {

@@ -1,5 +1,7 @@
 
 [![NPM version][npm-img]][npm-url]
+[![Build status][travis-img]][travis-url]
+[![Test coverage][codecov-img]][codecov-url]
 [![License][license-img]][license-url]
 [![Dependency status][david-img]][david-url]
 
@@ -69,6 +71,10 @@ MIT
 
 [npm-img]: https://img.shields.io/npm/v/object-keys-mapping.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/object-keys-mapping
+[travis-img]: https://img.shields.io/travis/onebook/object-keys-mapping.svg?style=flat-square
+[travis-url]: https://travis-ci.org/onebook/object-keys-mapping
+[codecov-img]: https://img.shields.io/codecov/c/github/onebook/object-keys-mapping.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/onebook/object-keys-mapping?branch=master
 [license-img]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: http://opensource.org/licenses/MIT
 [david-img]: https://img.shields.io/david/onebook/object-keys-mapping.svg?style=flat-square

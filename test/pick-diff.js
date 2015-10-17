@@ -1,7 +1,7 @@
 'use strict'
 
+const pickDiff = require('../lib').pickDiff
 const equal = require('assert').deepEqual
-const pickDiff = require('../').pickDiff
 
 describe('pickDiff', () => {
   describe('basic', () => {

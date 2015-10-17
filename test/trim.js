@@ -1,7 +1,7 @@
 'use strict'
 
 const equal = require('assert').deepEqual
-const trim = require('../').trim
+const trim = require('../lib').trim
 
 describe('trim', () => {
   describe('basic', () => {
