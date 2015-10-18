@@ -1,5 +1,6 @@
 'use strict'
 
+const reverseCamelcase = require('../lib').reverseCamelcase
 const toCamelcase = require('../lib').toCamelcase
 const Operator = require('../lib').Operator
 const equal = require('assert').deepEqual
@@ -33,6 +34,32 @@ describe('index', () => {
     it('operator.map', () => {
       const operator = new Operator()
       equal(operator.map(origin), expect)
+    })
+  })
+
+  describe('reverse camelcase', () => {
+    const origin = {
+      aB: 'a',
+      aC: {
+        bC: 'b',
+        bD: {
+          cD: 'c'
+        }
+      }
+    }
+
+    const expect = {
+      a_b: 'a',
+      a_c: {
+        b_c: 'b',
+        b_d: {
+          c_d: 'c'
+        }
+      }
+    }
+
+    it('reverseCamelcase', () => {
+      equal(reverseCamelcase(origin), expect)
     })
   })
 

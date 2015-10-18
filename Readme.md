@@ -11,6 +11,9 @@
 
 * Operator
   - .map()
+
+* reverseCamelcase()
+* toCamelcase()
 * trim()
 * pick()
 * pickDiff()
