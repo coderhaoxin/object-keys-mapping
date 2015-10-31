@@ -1,7 +1,8 @@
+
 'use strict'
 
-const pickDiff = require('../lib').pickDiff
-const equal = require('assert').deepEqual
+import { deepEqual as equal } from 'assert'
+import { pickDiff } from '../lib'
 
 describe('pickDiff', () => {
   describe('basic', () => {
