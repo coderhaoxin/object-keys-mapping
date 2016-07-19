@@ -6,11 +6,10 @@
   "scripts": {
     "build": "babel lib --out-dir build",
     "prepublish": "npm run build",
-    "pretest": "npm run build",
     "test": "mocha --require babel-core/register",
     "test-cov": "istanbul cover node_modules/.bin/_mocha -- --require babel-core/register -R dot -t 2000 test/*.js"
   },
-  "repository": "onebook/object-keys-mapping",
+  "repository": "coderhaoxin/object-keys-mapping",
   "keywords": [
     "mapping",
     "object",
