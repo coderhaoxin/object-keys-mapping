@@ -1,6 +1,6 @@
 {
   "name": "object-keys-mapping",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "mapping object keys",
   "main": "build/index.js",
   "scripts": {
@@ -28,5 +28,8 @@
     "babel-preset-es2015": "6",
     "istanbul": "0",
     "mocha": "2"
+  },
+  "dependencies": {
+    "lodash.camelcase": "^4.1.1"
   }
 }

@@ -12,6 +12,12 @@ import {
 describe('index', () => {
   describe('camelcase', () => {
     const origin = {
+      aa_bb_C01: 'a',
+      aa_bb_c01: 'a',
+      aa_bb_01: 'a',
+      AA_BB_01: 'a',
+      a_b_01: 'a',
+      A_B_01: 'a',
       a_b: 'a',
       a_c: {
         b_c: 'b',
@@ -22,6 +28,12 @@ describe('index', () => {
     }
 
     const expect = {
+      aaBbC01: 'a',
+      aaBbC01: 'a',
+      aaBb01: 'a',
+      aaBb01: 'a',
+      aB01: 'a',
+      aB01: 'a',
       aB: 'a',
       aC: {
         bC: 'b',
