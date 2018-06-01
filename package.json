@@ -1,6 +1,6 @@
 {
   "name": "object-keys-mapping",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "mapping object keys",
   "main": "build/index.js",
   "scripts": {
