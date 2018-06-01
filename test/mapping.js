@@ -189,5 +189,29 @@ describe('index', () => {
         isUndefined: undefined
       })
     })
+
+    it('property is Date', () => {
+      equal(operator.map({
+        is_date: new Date('2018')
+      }), {
+        isDate: new Date('2018')
+      })
+    })
+
+    it('property is Error', () => {
+      equal(operator.map({
+        is_error: new Error()
+      }), {
+        isError: new Error()
+      })
+    })
+
+    it('property is RegExp', () => {
+      equal(operator.map({
+        is_reg: /is_reg/
+      }), {
+        isReg: /is_reg/
+      })
+    })
   })
 })
