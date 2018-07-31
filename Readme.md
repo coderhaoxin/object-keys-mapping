@@ -15,7 +15,6 @@
 * reverseCamelcase()
 * toCamelcase()
 * trim()
-* pickDiff()
 
 ### Usage
 
