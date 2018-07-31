@@ -15,13 +15,12 @@
 * reverseCamelcase()
 * toCamelcase()
 * trim()
-* pick()
 * pickDiff()
 * genReverser()
 
 ### Usage
 
-```
+```js
 import { Operator } from 'object-keys-mapping'
 
 const operator = new Operator({
@@ -56,17 +55,6 @@ const obj = operator.map({
     name: 'dog'
   }]
 }
-```
-
-* .pick()
-
-```js
-const origin = {
-  name: 'a',
-  desc: 'b'
-}
-
-pick(origin, ['name', 'username'], 'desc')
 ```
 
 ### License
