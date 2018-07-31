@@ -55,6 +55,20 @@ const obj = operator.map({
 }
 ```
 
+```js
+toCamelcase({
+  user_name: 'hi',
+  age: 8
+})
+```
+
+```js
+reverseCamelcase({
+  userName: 'hi',
+  age: 8
+})
+```
+
 ### License
 MIT
 
