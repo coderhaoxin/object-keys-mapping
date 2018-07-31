@@ -16,7 +16,6 @@
 * toCamelcase()
 * trim()
 * pickDiff()
-* genReverser()
 
 ### Usage
 
